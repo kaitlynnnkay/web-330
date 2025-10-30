@@ -3,9 +3,76 @@
   Chapter 1
   Programming Assignment
 
-  Author:
-  Date:
-  Filename:
+  Author: Kaitlyn Kelly
+  Date: 10/30/25
+  Filename: styles.css
 */
 
 /* Your CSS goes here */
+/* CSS Reset */
+body, form, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#mainContainer {
+  margin-top: 20px;
+}
+
+body {
+  background-color: #E3CDFA;
+  color: #000;
+  font-family:'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+label {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+input[type="text"], select, select option {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 1em;
+}
+
+input[type="text"], select {
+  box-shadow: 2px 2px 15px #9F68D9;
+  margin: 13px auto 35px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border-color: #000;
+  border-width: 2px;
+}
+
+button {
+  background-color: #D6ADFF;
+  padding: 10px 20px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 15px #9F68D9;
+  margin-top: 25px;
+  font-size: 1.25em;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 600;
+  border-color: #000;
+  border-width: 2px;
+}
+
+button:hover {
+  background-color: #000;
+  color: #E3CDFA;
+}
+
+#characterOutput {
+  margin-top: 60px;
+  font-size: 1.5em;
+  color: #fff;
+  background-color: #9F68D9;
+  border-radius: 25px;
+  box-shadow: 2px 2px 15px #370B63;
+  font-weight: 600;
+}
