@@ -3,9 +3,58 @@
   Chapter 2
   Programming Assignment
 
-  Author:
-  Date:
-  Filename:
+  Author: Kaitlyn Kelly
+  Date: 11/21/25
+  Filename: styles.css
 */
 
 /* Add your CSS styles here */
+
+/* reset */
+body, form, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+  background-color: #264653;
+  color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+form {
+  font-family: Georgia;
+  font-size: 1.5em;
+  letter-spacing: 0.15em;
+  margin-top: 20px;
+}
+
+form input {
+  background-color: #E9C46A;
+  color: #264653;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  box-shadow: 2px 2px 15px #172E38;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 1em;
+  letter-spacing: 0.15em;
+}
+
+p {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+}
