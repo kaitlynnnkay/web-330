@@ -1,0 +1,46 @@
+/*
+  Pragmatic JavaScript
+  Chapter 3
+  Programming Assignment
+
+  Author: Kaitlyn Kelly
+  Date: 12/7/25
+  Filename: styles-complete.css
+*/
+
+/* Add your CSS styles here */
+body {
+  background-color: #086788;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #F0C808;
+  text-decoration-style: wavy;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+div {
+  border-style: double;
+  border-color: #F0C808;
+  min-height: 350px;
+  margin: 20px auto;
+  max-width: 80%;
+  text-align: center;
+  padding: 10px;
+  background-color: #07A0C3
+}
