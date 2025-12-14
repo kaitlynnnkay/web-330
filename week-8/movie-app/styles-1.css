@@ -1,0 +1,60 @@
+/*
+  Pragmatic JavaScript
+  Chapter 4
+  Programming Assignment
+
+  Author: Kaitlyn Kelly
+  Date: 12/14/25
+  Filename: styles-1.css
+*/
+
+/* Add your styles here */
+
+body {
+  background-color: #51344D;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#title-input, button {
+  background-color: #F5E5FC;
+  font-family:'Courier New', Courier, monospace;
+  color: #A03D92;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: #F5E5FC;
+}
+
+button:hover {
+  box-shadow: 5px 5px 10px #180E16;
+}
+
+h2 {
+  color: #F5E5FC;
+  font-size: 1.3em;
+  letter-spacing: 0.5em;
+  text-shadow: 3px 3px 7px #180E16;
+}
+
+p {
+  color: #F5E5FC;
+  font-size: 1em;
+}
+
+a {
+  color: #F5E5FC;
+  font-size: 1em;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #A03D92;
+}
+
+#citation {
+  margin-top: 100px;
+  font-style: italic;
+}
